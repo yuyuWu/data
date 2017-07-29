@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/css/inquiry.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/3.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/classie.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/demo.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/echarts.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/group_four.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/group_one.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/group_three.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/group_two.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/inquiry.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/mousewheel.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/resize.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/respond.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/select.js" charset="UTF-8" />
+  </component>
+</project>

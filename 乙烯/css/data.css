@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+    /*选项卡样式*/
+    /*选项头*/
+.tab_tube{
+    font-size: 20px;
+    background: #eef4f7!important;
+}
+.nav-tabs{
+    height: 80px;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    border: none!important;
+    text-align: center;
+}
+
+.tab_tube .active{
+    display: block;
+    bottom: -3px;
+    border-bottom: 6px solid #41ddcc;
+
+
+}
+.tab_tube li{
+    float: right;
+    background: #eef4f7;
+}
+.tab_tube > li.active > a:hover,.tab_tube > li.active > a:focus,.tab_tube > li.active > a,.tab_tube> li.active > .tab_tube li a:hover,.tab_tube > li > a:hover {
+    background-color: #eef4f7!important;
+}
+.tab_tube> li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    color: rgba(10, 10, 10, 0.79);
+}
+
+/*组数*/
+.tab_tube> li > a,.tab_tube > li.active > a:hover,.tab_tube > li.active > a:focus,.tab_tube > li.active > a,.tab_tube> li.active > .tab_tube li a:hover,.group .nav li a,.group .nav-group >li > a:hover,.group .nav-group >li > a:active,.group .nav-group >li > a:focus,.group .nav-group >li:active>a:visited,.group .nav-group >li > a:visited{
+    border: none!important;
+}
+.group .nav li a,.group .nav-group >li > a:hover,.group .nav-group >li > a:active,.group .nav-group >li > a:focus,.group .nav-group >li:active>a:visited,.group .nav-group >li > a:visited{
+    background: none!important;
+
+}
+.group .nav{
+    font-size: 16px;
+}
+.group .nav li a{
+    color: rgba(10, 10, 10, 0.79);
+}
+.group .nav  .active a {
+    color:#41ddcc!important;
+}
+#group_two{
+
+}

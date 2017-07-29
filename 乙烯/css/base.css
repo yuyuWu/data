@@ -1,0 +1,65 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+    overflow-y: hidden;
+}
+a{
+    text-underline: none;
+}
+li{
+    list-style: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.container{
+    width: 100%;
+}
+/*左边栏导航菜单*/
+.col-sm-1{
+    background:#344750;
+
+}
+.nav{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+
+}
+/*导航栏上面的标题*/
+.title{text-align: center;
+display: block;
+margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #41ddcc;
+}
+.nav-items{
+
+    height: 80px;
+    text-align: center;
+}
+/*鼠标划过之后背景颜色改变*/
+.nav-items-active{
+    background:#41ddcc;
+}
+/*图标*/
+.img{
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+}
+/*图标下面的文字*/
+.nav-words{
+    font-size: 14px;
+    color: #fff;
+}
+/*/!*右边栏*!/
+.col-sm-11{
+    height: 700px;
+
+}*/
