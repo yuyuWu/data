@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0.5,user-scalable=no">
+    <title>乙烯</title>
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <!--左边栏-->
+        <div class="col-sm-1">
+            <div class="row">
+                <div class="col-sm-12">
+      <span class="title">
+           Ethylene
+          </span>
+                    <ul class="row">
+                        <li class="col-sm-12 nav-items"><a href="#">
+              <span class="img">
+                   <img src="images/icon_temp.png" alt=""/>
+              </span>
+                <span class="nav-words">
+                    温度数据图表
+                </span>
+                        </a>
+                        </li>
+                        <li class="col-sm-12 nav-items"><a href="#">
+                   <span class="img">
+                <img src="images/icon_inquiry.png" alt=""/>
+                </span>
+                <span class="nav-words">
+                    数据查询
+                </span>
+                        </a>
+                        </li>
+                        <li class="col-sm-12 nav-items  nav-items-active"><a href="#">
+                <span class="img">
+                <img src="images/icon_compare.png" alt=""/>
+                </span>
+                <span class="nav-words">
+                    管管比较
+                </span>
+                        </a>
+                        </li>
+                        <li class="col-sm-12 nav-items"><a href="#">
+                <span class="img">
+                <img src="images/icon_diagnosis.png" alt=""/>
+                </span>
+                <span class="nav-words">
+                    结焦诊断
+                </span>
+                        </a>
+                        </li>
+                        <li class="col-sm-12 nav-items"><a href="#">
+                 <span class="img">
+                <img src="images/icon_user.png" alt=""/>
+                </span>
+                <span class="nav-words">
+                    用户管理
+                </span>
+                        </a>
+                        </li>
+                        <li class="col-sm-12 nav-items"><a href="#">
+                 <span class="img">
+                <img src="images/icon_cancel.png" alt=""/>
+                </span>
+                <span class="nav-words">
+                  退出登录
+                </span>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--右边栏-->
+        <div class="col-sm-11">
+            主体部分
+        </div>
+    </div>
+</div>
+<script src="js/resize.js">
+</script>
+<script>
+    $(function () {
+        /*可视化高度*/
+        $(".col-sm-1,.col-sm-11").css('height', $(window).height())
+    })
+</script>
+</body>
+</html>
